@@ -1,0 +1,278 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    font-family: "Montserrat";
+    background-color: #F6F2EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main > .center {
+    width: 90%;
+    height: 80%;
+    background-color: #F6F2EE;
+    border-radius: 5px;
+    box-shadow: 5px 5px  25px  rgba(102, 102, 102, 0.752), -5px -5px 30px rgba(102, 102, 102, 0.752);
+    display: flex;
+    overflow: hidden; 
+    position: relative;
+}
+
+.center > .watch{
+    position: absolute;
+    top: 7%;
+    left: 24.5%;
+    width: 20%;
+    height: 100%;
+    background-image: url(./b-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.center > .circle {
+    position: absolute;
+    top: 17%;
+    left: 21%;
+    width: 300px;
+    height: 300px;
+    background-color: #F6F2EE;
+    border-radius: 50%;
+}
+
+.circle > .mini_circle {
+    position: absolute;
+    top: 8.5%;
+    left: 8%;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 107, 53);
+    border-radius: 50%;
+}
+
+.center > .c {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.c > .cl {
+    width: 45%; 
+    height: 100%;
+    background-color: #323841;
+    border-radius: 0% 180px 180px 0%;
+} 
+
+.c > .cr {
+    width: 45%;
+    height: 100%;
+    background-color: #323841;
+    border-radius: 180px 0% 0% 180px;
+    
+}
+
+.center > .extra{
+    width: 30%;
+    height: 100%;
+    background-color: #323841;
+}
+
+.center > .nav-left{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 15%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 30px;
+}
+
+.nav-left > h4 {
+    font-size: 15px;
+    color: white;
+}
+
+.nav-left > i {
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+.center > .box1-lb{
+    position: absolute;
+    top: 35%;
+    left: 0%;
+    width: 15%;
+    height: 10%;
+}
+
+.box1-lb > h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    padding-left: 17px;
+} 
+
+.box1-lb > p {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    padding-left: 20px;
+    opacity: 0.5;
+} 
+
+.center > .line {
+    position: absolute;
+    top: 41%;
+    left: 0%;
+    width: 75px;
+    height: 4px;
+    background-color: orangered;
+}
+
+.center > .box1-lf {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 15%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 30px;
+}
+
+.box1-lf > i {
+    font-size: 18px;
+    color: white;
+}
+
+.center > .right {
+    position: absolute;
+    top: 28%;
+    right: 18%;
+    width: 23%;
+    height: 60%;
+}
+
+.right > .top {
+    width: 100%;
+    height: 31%;
+}
+
+.top > .a {
+    display: flex;
+    color: white;
+}
+
+.a > h1 {
+    font-size: 33px;
+    font-weight: 500;
+}
+
+.a > h2 {
+    font-size: 33px;
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+.top > .b {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.b > h2 {
+    font-size: 33px;
+    font-weight: 900;
+}
+
+.b > h1 {
+    font-size: 33px;
+    font-weight: 500;
+}
+
+.right > .middle {
+    width: 100%;
+    height: 50%;
+    margin-top: 10px;
+}
+
+.middle > p {
+    font-size: 16px;
+    color: white;
+}
+
+.middle > button {
+    padding: 10px 30px;
+    margin-top: 20px;
+    border: none;
+}
+
+.right_nav{
+    position: absolute;
+    top: -40%;
+    display: flex;
+    width: 185%;
+    left: -20%;
+    color: white;
+}
+
+.right_nav>h4{
+    font-weight: 500;
+    border-bottom: 2px solid white;
+}
+
+.women{
+    margin-left: 35px !important;
+    border: none !important;
+}
+
+.right_nav>i{
+    color: white;
+    margin-left: 25px;
+}
+
+.ri-search-line{
+    margin-left: 220px !important;
+}
+
+.incline{
+    position: absolute;
+    left: -60%;
+    top: 45%;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    transform: rotate(90deg);
+}
+
+.incline>h4{
+    font-size: 12px;
+    color: white;
+    margin-right: 8px;
+}
+
+.incline>.line{
+    height: 20%;
+    border-radius: 10px;
+    width: 40%;
+    background-color: #A07354;
+}
